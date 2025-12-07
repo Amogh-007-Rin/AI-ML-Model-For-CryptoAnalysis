@@ -60,8 +60,8 @@ The experiment revealed that market sentiment has a very low linear correlation 
 ### Setup
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/crypto-sentiment-prediction.git](https://github.com/YOUR_USERNAME/crypto-sentiment-prediction.git)
-    cd crypto-sentiment-prediction
+    git clone [https://github.com/Amogh-007-Rin/AI-ML-Model-For-CryptoAnalysis](https://github.com/Amogh-007-Rin/AI-ML-Model-For-CryptoAnalysis)
+    cd AI-ML-Model-For-CryptoAnalysis
     ```
 
 2.  **Install dependencies**
@@ -76,7 +76,7 @@ The experiment revealed that market sentiment has a very low linear correlation 
     ```
     *Or launch Jupyter:*
     ```bash
-    jupyter notebook notebooks/Crypto_Prediction_Analysis.ipynb
+    jupyter notebook notebooks/Crypto_Trend_Analysis.ipynb
     ```
 
 ## 📂 Project Structure
@@ -84,7 +84,7 @@ The experiment revealed that market sentiment has a very low linear correlation 
 ```text
 └── Academic_Reports/       # Final Academic Report (D1.b).
 ├── dataset/                # Dataset files (csv).
-├── Final_Notebook/         # Jupyter Notebooks containing complete project and ML model code [ Main execution script ].
+├── Final_Notebook/         # Jupyter Notebooks containing complete project and ML model code [ Main execution script ] with a markdown file.
 ├── Ideas/                  # Model training ideas and project discussions proposed by group members.
 ├── images/                 # Plots and correlation heatmaps.               
 ├── Project-Brief/          # Contains the project briefing and sample reports.
