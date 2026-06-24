@@ -32,8 +32,8 @@ graph TB
     end
 
     subgraph "Preprocessing Pipeline"
-        B --> C[Data Cleaning<br/>Type Conversion &<br/>Missing Value Imputation]
-        C --> D[Feature Engineering<br/>One-Hot Encoding<br/>(cryptocurrency)]
+        B --> C[Data Cleaning<br/>Type Conversion and<br/>Missing Value Imputation]
+        C --> D[Feature Engineering<br/>One-Hot Encoding<br/>10 cryptocurrencies]
         D --> E[Feature Scaling<br/>StandardScaler<br/>Mean=0, Std=1]
         E --> F[Outlier Detection<br/>IQR Method]
     end
@@ -43,7 +43,7 @@ graph TB
         B --> H[Price vs Volume Scatter]
         B --> I[Price Change Distributions]
         B --> J[Sentiment Analysis Plots]
-        B --> K[RSI & Volatility Analysis]
+        B --> K[RSI and Volatility Analysis]
     end
 
     subgraph "Model Training"
